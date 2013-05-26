@@ -1,0 +1,51 @@
+<conversation>
+
+	<question name="start"></question>
+	<answer follow="bowler">Welcome in the house of findings! You will be guided by your little ghost friend!</answer>
+
+	<question name="bowler"></question> 
+	<answer follow="liar">You will need to find this one special thing!</answer>
+	
+	///////////////////////////////////////////////////////////
+
+	<question name="liar"></question>
+	<answer follow="one">No questions asked! Play the "Game" and find your reward...</answer>
+
+	<question name="eat"></question>
+	<answer follow="three">I eat them like Skittles</answer>
+
+	
+	//////////////////////////////////////////////////////////
+	
+	<question name="food"></question>
+	<answer follow="END">END</answer>
+
+	<question name="dog"></question>
+	<answer follow="END">END</answer>
+
+	
+	//////////////////////////////////////////////////////////
+	
+	<question name="one"></question>
+	<answer follow="END">END</answer>
+
+	<question name="two"></question>
+	<answer follow="END">END</answer>
+	
+	//////////////////////////////////////////////////////////
+	
+	<question name="three">Maybe till some day!</question>
+	<answer follow="END">END</answer>
+	<answer follow="END">END</answer>
+
+	<question name="four">I will leave, because you're a little scary!</question>
+	<answer follow="END">END</answer>
+	<answer follow="END">END</answer>
+	
+	//////////////////////////////////////////////////////////
+	
+	<question name="END">So we're finished for today</question>
+	<answer follow="ENDING">This is the end</answer>
+	<answer follow="ENDING">This is the end</answer>
+
+</conversation>
